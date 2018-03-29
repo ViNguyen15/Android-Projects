@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tvMainNames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="5dp"
+        android:text="tvMainNames"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        tools:layout_conversion_absoluteX="0dp"
+        tools:layout_conversion_absoluteY="0dp"
+        tools:layout_conversion_absoluteWidth="159dp"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_alignParentTop="true" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvAvailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:text="Available"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvSubNames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="10dp"
+        android:text="tvSubnames"
+        android:textSize="18sp"
+        tools:layout_conversion_absoluteX="10dp"
+        tools:layout_conversion_absoluteY="48dp"
+        tools:layout_conversion_absoluteWidth="85dp"
+        tools:layout_conversion_absoluteHeight="31dp"
+        tools:layout_editor_absoluteY="48dp"
+        tools:layout_editor_absoluteX="10dp"
+        android:layout_below="@+id/tvMainNames"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="10dp"
+        android:paddingTop="0dp"
+        android:text="tvTime"
+        android:textSize="18sp"
+        tools:layout_conversion_absoluteX="10dp"
+        tools:layout_conversion_absoluteY="80dp"
+        tools:layout_conversion_absoluteWidth="85dp"
+        tools:layout_conversion_absoluteHeight="31dp"
+        tools:layout_editor_absoluteY="80dp"
+        tools:layout_editor_absoluteX="10dp"
+        android:layout_below="@+id/tvMainNames"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+
+</RelativeLayout>
